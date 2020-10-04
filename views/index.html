@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>School website</title>
+    <style>
+      .bg-put{
+        color: #fff;
+        background: url("https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color: #636b6b;
+         background-blend-mode: multiply;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
@@ -363,6 +373,65 @@
         </div>
     </section>
 </div>
+
+
+
+<section class=" form1 bg-put py-4 px-4" id="form1-2w" >
+
+    
+
+    <div  style="opacity: 0.9; background-color: rgb(189, 224, 235);">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+                <h2 class=" align-center pb-3  display-2"><strong>
+                    CONTACT US</strong></h2>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container my-2 ">
+        <div class="row justify-content-center">
+            <div class="media-container-column col-lg-8" data-form-type="formoid">
+                    <div data-form-alert="" hidden="">
+                        Thanks for filling out the form!
+                    </div>
+            
+                    <form   data-form-title="Contact Us Form"><input type="hidden" data-form-email="true" value="">
+                        <div class="row row-sm-offset">
+                            <div class="col-md-4 multi-horizontal" data-for="name">
+                                <div class="form-group">
+                                    <label class="form-control-label  display-7" for="name-form1-2w">Name</label>
+                                    <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name-form1-2w">
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="email">
+                                <div class="form-group">
+                                    <label class="form-control-label  display-7" for="email-form1-2w">Email</label>
+                                    <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email-form1-2w" >
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="phone">
+                                <div class="form-group">
+                                    <label class="form-control-label  display-7" for="phone-form1-2w">Phone</label>
+                                    <input class="form-control" name="phone" type="number" data-form-field="Phone" id="phone-form1-2w">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" data-for="message">
+                            <label class="form-control-label  display-7" for="message-form1-2w">Message</label>
+                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-2w"></textarea>
+                        </div>
+            
+                        <span class="input-group-btn">
+                            <button href="" type="submit" class="btn btn-info btn-form btn-lg">SUBMIT</button>
+                        </span>
+                    </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 <partial src="footer.html"></partial>
 
