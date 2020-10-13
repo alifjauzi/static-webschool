@@ -1,242 +1,751 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
     <title>School website</title>
+    <style>
+      .bg-put {
+        color: #fff;
+        background: url("https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+          center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #636b6b;
+        background-blend-mode: multiply;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><h3>Navbar</h3></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/4356/production/_113783271_hi061731191.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="card bg-secondary">
-                <div class="card-body ">
-                  <h5 class="card-title text-center">Lorem ipsum</h5>
-                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo exercitationem amet iure rerum laboriosam, velit cum, voluptas dolore necessitatibus deserunt, ut delectus corrupti animi quasi eum consequatur ea quas. Dolore?</p>
-                </div>
-              </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"
+    >
+      <a class="navbar-brand" href="#"><h3>Navbar</h3></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://ichef.bbci.co.uk/news/2048/cpsprodpb/F30D/production/_112812226_hi061788872-1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="card bg-secondary">
-                <div class="card-body ">
-                  <h5 class="card-title text-center">Lorem ipsum</h5>
-                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo exercitationem amet iure
-                    rerum laboriosam, velit cum, voluptas dolore necessitatibus deserunt, ut delectus corrupti animi quasi eum
-                    consequatur ea quas. Dolore?</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v1597012458/oakschristian/ulymlbcbelon8amzyfyc/DistinctlyOaksService_1_1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="card bg-secondary">
-                <div class="card-body ">
-                  <h5 class="card-title text-center">Lorem ipsum</h5>
-                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo exercitationem amet iure
-                    rerum laboriosam, velit cum, voluptas dolore necessitatibus deserunt, ut delectus corrupti animi quasi eum
-                    consequatur ea quas. Dolore?</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
       </div>
-      <div class="jumbotron jumbotron-muted">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page intro to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
+    </nav>
 
-<div class="jumbotron jumbotron-primary">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page guide to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a class="link-white" href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a class="link-white" href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-success">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page guide to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a class="link-white" href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a class="link-white" href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-info">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page guide to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a class="link-white" href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a class="link-white" href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-warning">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page guide to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a class="link-white" href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a class="link-white" href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-danger">
-<div class="container">
-<div class="col-lg-6">
-<h2>Everything you need to know about SketchUp. Free!</h2>
-<p class="lead">Downloaded more than 30,000 times, this 100-page guide to SketchUp is a must-read for serious 3D designers!</p>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Enter your email">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">Download My Free Ebook</button>
-</span>
-</div>
-<br>
-<small>By submitting this form, you agree to our <a class="link-white" href="#!" target="_blank">Terms of Service <i class="fa fa-external-link" aria-hidden="true"></i></a> and <a class="link-white" href="#!" target="_blank">Privacy Policy <i class="fa fa-external-link" aria-hidden="true"></i></a>.</small>
-</div>
-<div class="col-lg-6">
-    <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png"/>
-</div>
-</div>
-</div>
-
-<div class="jumbotron jumbotron-dark-alt">
-<div class="container">
-<div class="row">
-<div class="col-lg-3 col-lg-offset-2">
-<img class="img-responsive" src="https://i.imgur.com/dCsjjSs.png"/>
-</div>
-<div class="col-lg-6">
-    <p>The most important things in SketchUp and 3D design. Straight to your inbox, weekly. Get Sketching.</p>
-    <form>
-        <div class="form-group">
-            <input type="email" class="form-control" placeholder="you@email.com">
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/4356/production/_113783271_hi061731191.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-center">Lorem ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo exercitationem amet iure rerum laboriosam, velit
+                  cum, voluptas dolore necessitatibus deserunt, ut delectus
+                  corrupti animi quasi eum consequatur ea quas. Dolore?
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </form>
-    <button type="button" class="btn btn-primary btn-block">Sign Me Up</button>
-</div>
-</div>
-</div>
-</div>
+        <div class="carousel-item">
+          <img
+            src="https://ichef.bbci.co.uk/news/2048/cpsprodpb/F30D/production/_112812226_hi061788872-1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-center">Lorem ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo exercitationem amet iure rerum laboriosam, velit
+                  cum, voluptas dolore necessitatibus deserunt, ut delectus
+                  corrupti animi quasi eum consequatur ea quas. Dolore?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_4/v1597012458/oakschristian/ulymlbcbelon8amzyfyc/DistinctlyOaksService_1_1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h5 class="card-title text-center">Lorem ipsum</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Explicabo exercitationem amet iure rerum laboriosam, velit
+                  cum, voluptas dolore necessitatibus deserunt, ut delectus
+                  corrupti animi quasi eum consequatur ea quas. Dolore?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="jumbotron jumbotron-muted">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page intro to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
 
+    <div class="jumbotron jumbotron-primary">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page guide to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a class="link-white" href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a class="link-white" href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-success">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page guide to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a class="link-white" href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a class="link-white" href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-info">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page guide to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a class="link-white" href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a class="link-white" href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-warning">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page guide to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a class="link-white" href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a class="link-white" href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-danger">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Everything you need to know about SketchUp. Free!</h2>
+          <p class="lead">
+            Downloaded more than 30,000 times, this 100-page guide to SketchUp
+            is a must-read for serious 3D designers!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email"
+            />
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">
+                Download My Free Ebook
+              </button>
+            </span>
+          </div>
+          <br />
+          <small
+            >By submitting this form, you agree to our
+            <a class="link-white" href="#!" target="_blank"
+              >Terms of Service
+              <i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+            and
+            <a class="link-white" href="#!" target="_blank"
+              >Privacy Policy
+              <i class="fa fa-external-link" aria-hidden="true"></i></a
+            >.</small
+          >
+        </div>
+        <div class="col-lg-6">
+          <img class="img-responsive" src="https://i.imgur.com/1Vm0su2.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-dark-alt">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-2">
+            <img class="img-responsive" src="https://i.imgur.com/dCsjjSs.png" />
+          </div>
+          <div class="col-lg-6">
+            <p>
+              The most important things in SketchUp and 3D design. Straight to
+              your inbox, weekly. Get Sketching.
+            </p>
+            <form>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="you@email.com"
+                />
+              </div>
+            </form>
+            <button type="button" class="btn btn-primary btn-block">
+              Sign Me Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <partial src="header.html"></partial>
+    <header>
+      <div
+        id="carousel-indicators"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-indicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-indicators" data-slide-to="1"></li>
+          <li data-target="#carousel-indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: url('./img/slider_1.jpg')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>
+                Your vision, <br />
+                our future
+              </h3>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('./img/slider_2.jpg')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>
+                Your vision, <br />
+                our future
+              </h3>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('./img/slider.jpg')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3>
+                Your vision, <br />
+                our future
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="welcome text-center clearfix">
+        <h1 class="f-stencil text-white">welcome.</h1>
+        <h3 class="text-white f-karla-r">
+          PT. Petrotec Rekayasa Dinamika (formerly a division of PT Petrotec Air
+          Power) <br />
+          was established in year 2010. We specialise in the sale and services
+          <br />
+          of engineering compressor packages.
+        </h3>
+        <a href="" class="btn btn-warning text-white btn-more">
+          LEAR MORE
+          <i class="fas fa-caret-right ml-3"></i>
+        </a>
+      </section>
+    </div>
+
+    <div class="container-fluid p-0">
+      <section class="projects clearfix">
+        <div class="row no-gutters">
+          <div class="col-4">
+            <div class="ml-108">
+              <h1 class="f-stencil text-white">Projects</h1>
+              <h3 class="text-white f-karla-r mb-5">
+                a representative sample of our past projects.
+              </h3>
+              <div class="d-block position-relative py-4 w-25">
+                <div class="swiper-button-next" id="sbn"></div>
+                <div class="swiper-button-prev" id="sbp"></div>
+              </div>
+              <a href="" class="btn btn-warning text-white mt-5">
+                VIEW OTHERS
+                <i class="fas fa-caret-right ml-3"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-8">
+            <!-- Swiper -->
+            <div class="swiper-container swiper-container1">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/IMG_9521.JPG)"
+                >
+                  <div class="caption">
+                    <h6 class="date">Sub heading 1</h6>
+                    <h6 class="title">Subhead 1</h6>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/Meruap1_1.jpg)"
+                >
+                  <div class="caption">
+                    <h6 class="date">Sub heading 2</h6>
+                    <h6 class="title">Subhead 1</h6>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/slider_2.jpg)"
+                >
+                  <div class="caption">
+                    <h6 class="date">Sub heading 2</h6>
+                    <h6 class="title">lorem ipsum dolor sit amet</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newEvent clearfix">
+        <div class="row no-gutters">
+          <div class="col-4">
+            <div class="pl-108 pt-5" style="min-height: 425px">
+              <div class="bgc-asset"></div>
+              <h1 class="f-stencil text-white">
+                News <br />
+                &#38; Events.
+              </h1>
+              <div class="d-block position-relative mt-80 w-25 m">
+                <div class="swiper-button-next" id="sbn2"></div>
+                <div class="swiper-button-prev" id="sbp2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8" style="min-height: 600px">
+            <div class="swiper-container swiper-container2">
+              <div class="swiper-wrapper swiper-wrapper-custom">
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/IMG_9521.JPG)"
+                >
+                  <div class="caption">
+                    <h6 class="date">MARCH, 2020</h6>
+                    <h6 class="title">Subheading 1</h6>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/Meruap1_1.jpg)"
+                >
+                  <div class="caption">
+                    <h6 class="date">MARCH, 2020</h6>
+                    <h6 class="title">Subheading 2</h6>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(img/slider_2.jpg)"
+                >
+                  <div class="caption">
+                    <h6 class="date">MARCH, 2020</h6>
+                    <h6 class="title">Subheading 3</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="form1 bg-put py-4 px-4" id="form1-2w">
+      <div style="opacity: 0.9; background-color: rgb(189, 224, 235)"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="title col-12 col-lg-8">
+            <h2 class="align-center pb-3 display-2">
+              <strong> CONTACT US</strong>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container my-2">
+        <div class="row justify-content-center">
+          <div class="media-container-column col-lg-8" data-form-type="formoid">
+            <div data-form-alert="" hidden="">
+              Thanks for filling out the form!
+            </div>
+
+            <form data-form-title="Contact Us Form">
+              <input type="hidden" data-form-email="true" value="" />
+              <div class="row row-sm-offset">
+                <div class="col-md-4 multi-horizontal" data-for="name">
+                  <div class="form-group">
+                    <label
+                      class="form-control-label display-7"
+                      for="name-form1-2w"
+                      >Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      data-form-field="Name"
+                      required=""
+                      id="name-form1-2w"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4 multi-horizontal" data-for="email">
+                  <div class="form-group">
+                    <label
+                      class="form-control-label display-7"
+                      for="email-form1-2w"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      data-form-field="Email"
+                      required=""
+                      id="email-form1-2w"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4 multi-horizontal" data-for="phone">
+                  <div class="form-group">
+                    <label
+                      class="form-control-label display-7"
+                      for="phone-form1-2w"
+                      >Phone</label
+                    >
+                    <input
+                      class="form-control"
+                      name="phone"
+                      type="number"
+                      data-form-field="Phone"
+                      id="phone-form1-2w"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group" data-for="message">
+                <label
+                  class="form-control-label display-7"
+                  for="message-form1-2w"
+                  >Message</label
+                >
+                <textarea
+                  type="text"
+                  class="form-control"
+                  name="message"
+                  rows="7"
+                  data-form-field="Message"
+                  id="message-form1-2w"
+                ></textarea>
+              </div>
+
+              <span class="input-group-btn">
+                <button
+                  href=""
+                  type="submit"
+                  class="btn btn-info btn-form btn-lg"
+                >
+                  SUBMIT NOW
+                </button>
+              </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <partial src="footer.html"></partial>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
